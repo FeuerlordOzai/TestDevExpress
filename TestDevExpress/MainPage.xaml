@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxc="clr-namespace:DevExpress.Maui.Charts;assembly=DevExpress.Maui.Charts"
+             xmlns:dxco="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls"
              x:Class="TestDevExpress.MainPage">
-    <StackLayout x:Name="chartholder">
-    </StackLayout>
+    <Grid x:Name="chartholder" RowDefinitions="Auto,*">
+    </Grid>
 </ContentPage>
